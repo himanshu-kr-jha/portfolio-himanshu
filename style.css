@@ -474,6 +474,12 @@ section {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.7); /* Stronger shadow on hover */
 }
 
+@media (max-width:682px){
+    .experience-box .img{
+
+        display: none;
+    }
+}
 
 /* Resume Download Button */
 .download-btn {
