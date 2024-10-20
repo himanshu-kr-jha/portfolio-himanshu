@@ -476,8 +476,9 @@ section {
 
 @media (max-width:682px){
     .experience-box .img{
-
         display: none;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -700,7 +701,7 @@ section {
 .footer {
     background-color: #161616; /* Footer background color */
     color: #ffffff; /* Text color */
-    padding: 40px 100px; /* Padding around the footer */
+    padding: 40px 20px; /* Padding around the footer */
     text-align: left; /* Center text */
 }
 
