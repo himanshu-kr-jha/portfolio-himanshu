@@ -729,3 +729,13 @@ section {
     text-decoration: underline; /* Underline links on hover */
 }
 
+ /* Basic styling */
+ .linkedin-icon {
+    font-size: 24px;
+    /* color: #0077b5; */
+    cursor: pointer;
+}
+.badge-container {
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+}

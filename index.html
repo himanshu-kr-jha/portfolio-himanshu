@@ -5,23 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Himanshu's Software Engineering Portfolio">
-    <meta name="description" content="Himanshu Kumar Jha's software engineering portfolio showcasing web development projects, machine learning models, and more.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/himanshu-kr-jha/portfolio-himanshu/refs/heads/main/thumbnail.png">
+    <meta name="description"
+        content="Himanshu Kumar Jha's software engineering portfolio showcasing web development projects, machine learning models, and more.">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/himanshu-kr-jha/portfolio-himanshu/refs/heads/main/thumbnail.png">
     <meta property="og:url" content="https://portfolio-himanshu-kumar-jha.onrender.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="logo-color.svg">
     <link rel="stylesheet" href="style.css">
     <title>Himanshu Kumar Jha | Software Engineer Portfolio</title>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PBXBKHYPQ"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-8PBXBKHYPQ');
+    gtag('config', 'G-8PBXBKHYPQ');
 </script>
 
 <body>
@@ -48,11 +51,20 @@
             <p>I am an undergraduate software engineering student from Delhi, with hands-on experience in web
                 development, machine learning, and problem-solving through data structures and algorithms.</p>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/himanshu-kumar-jha-software-engineer/"><i
-                        class="fa-brands fa-linkedin"></i></a>
+                <a href="javascript:void(0);" onclick="toggleBadge()">
+                    <i class="fab fa-linkedin linkedin-icon"></i>
+                </a>
+            
+            
                 <a href="https://github.com/himanshu-kr-jha"><i class="fa-brands fa-github"></i></a>
             </div>
-            <a href="https://drive.google.com/file/d/18DzcaRl_boqqJVZBP1j8kMtow-h729LU/view?usp=drive_link" target="_blank" download class="btn download-btn">
+            <div class="badge-container" id="badgeContainer">
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="himanshu-kumar-jha-software-engineer" data-version="v1">
+                    <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/himanshu-kumar-jha-software-engineer?trk=profile-badge"></a>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/18DzcaRl_boqqJVZBP1j8kMtow-h729LU/view?usp=drive_link"
+                target="_blank" download class="btn download-btn">
                 <i class="fa-solid fa-file-pdf"></i> Download Resume
             </a>
         </div>
@@ -62,7 +74,8 @@
     <section class="projects" id="projects">
         <h2>Projects</h2>
         <div class="project-content">
-            <a href="https://github.com/himanshu-kr-jha/Automated-Excavator-Monitoring-Service" target="_blank" class="project-box">
+            <a href="https://github.com/himanshu-kr-jha/Automated-Excavator-Monitoring-Service" target="_blank"
+                class="project-box">
                 <i class="fas fa-tools"></i>
                 <h3>Excavator Monitoring System</h3>
                 <p>Developed during my internship, improving operational accuracy by 60% through advanced monitoring
@@ -73,7 +86,8 @@
                 <h3>Destinate</h3>
                 <p>A navigation app that enhances travel efficiency with smart route planning and real-time updates.</p>
             </a>
-            <a href="https://github.com/himanshu-kr-jha/automobile-predictive-failure/blob/main/README.md" target="_blank" class="project-box">
+            <a href="https://github.com/himanshu-kr-jha/automobile-predictive-failure/blob/main/README.md"
+                target="_blank" class="project-box">
                 <i class="fas fa-car-crash"></i>
                 <h3>Automobile Failure Detection</h3>
                 <p>Implemented a model for detecting potential automobile failures, increasing safety and reducing
@@ -83,7 +97,8 @@
                 <i class="fas fa-tasks"></i> <!-- Checklist icon -->
 
                 <h3>TodoApp</h3>
-                <p>Using Tech Stack of Node.js, Express, MySQL, HTML, CSS, Bootstrap & JavaScript, built a webApp to keep track of your tasks.</p>
+                <p>Using Tech Stack of Node.js, Express, MySQL, HTML, CSS, Bootstrap & JavaScript, built a webApp to
+                    keep track of your tasks.</p>
             </a>
             <a href="https://simon-say-game.s3.amazonaws.com/simonSay.html" class="project-box">
                 <i class="fas fa-gamepad"></i>
@@ -171,11 +186,11 @@
             <div class="experience-box">
                 <div>
                     <h3>Machine Learning Intern</h3>
-                <p>Cognecto · Internship<br>
-                    May 2024 - Jul 2024 · 3 mos<br>
-                    Delhi, India · Remote</p>
-                <p>Worked on Excavator Monitoring System with YOLO and OpenCV.</p>
-                <p>Skills: Computer Vision, Amazon Web Services (AWS)</p>
+                    <p>Cognecto · Internship<br>
+                        May 2024 - Jul 2024 · 3 mos<br>
+                        Delhi, India · Remote</p>
+                    <p>Worked on Excavator Monitoring System with YOLO and OpenCV.</p>
+                    <p>Skills: Computer Vision, Amazon Web Services (AWS)</p>
                 </div>
                 <div class="img">
                     <img src="cognecto.jpeg" alt="Cognecto Logo" class="company-logo" />
@@ -183,26 +198,26 @@
             </div>
             <div class="experience-box">
                 <div>
-                <h3>Student Mentor</h3>
-                <p>Desh Ke Mentor · Apprenticeship<br>
-                    Jan 2023 - Apr 2023 · 4 mos<br>
-                    Remote</p>
+                    <h3>Student Mentor</h3>
+                    <p>Desh Ke Mentor · Apprenticeship<br>
+                        Jan 2023 - Apr 2023 · 4 mos<br>
+                        Remote</p>
                     <p>Mentored students, focusing on requirements analysis and youth mentoring.</p>
                     <p>Skills: Youth Mentoring, Communication</p>
                 </div>
-                    <div class="img">
+                <div class="img">
                     <img src="dkm.png" alt="Desh Ke Mentor Logo" class="company-logo" />
                 </div>
             </div>
             <div class="experience-box">
                 <div>
-                <h3>Communication Trainee</h3>
-                <p>COGNECTO · Freelance<br>
-                    Dec 2022 - Dec 2022 · 1 mo<br>
-                    New Delhi, Delhi, India</p>
+                    <h3>Communication Trainee</h3>
+                    <p>COGNECTO · Freelance<br>
+                        Dec 2022 - Dec 2022 · 1 mo<br>
+                        New Delhi, Delhi, India</p>
                     <p>Assisted in communication strategies and project documentation.</p>
                 </div>
-                    <div class="img">
+                <div class="img">
                     <img src="cognecto.jpeg" alt="Cognecto Logo" class="company-logo" />
                 </div>
             </div>
@@ -214,30 +229,38 @@
     <!-- Footer Section -->
     <footer class="footer" id="contact">
         <div>
-        <h2>Contact</h2>
-        <p>Connect with me on LinkedIn or send an email!</p>
-        <div class="contact-container">
-            <div class="contact-info">
-                <p><i class="fas fa-envelope"></i> Email: 
-                    <a href="mailto:himanshukrjha004@gmail.com">himanshukrjha004@gmail.com</a>
-                </p>
-                <p><i class="fab fa-linkedin"></i> LinkedIn: 
-                    <a href="https://www.linkedin.com/in/himanshu-kumar-jha-software-engineer" target="_blank">
-                        himanshu-kumar-jha
-                    </a>
-                </p>
-            </div>
+            <h2>Contact</h2>
+            <p>Connect with me on LinkedIn or send an email!</p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> Email:
+                        <a href="mailto:himanshukrjha004@gmail.com">himanshukrjha004@gmail.com</a>
+                    </p>
+                    <p><i class="fab fa-linkedin"></i> LinkedIn:
+                        <a href="https://www.linkedin.com/in/himanshu-kumar-jha-software-engineer" target="_blank">
+                            himanshu-kumar-jha
+                        </a>
+                    </p>
+                </div>
 
+            </div>
         </div>
-    </div>
     </footer>
-    
+
 
 
 
 
 
     <script>
+         function toggleBadge() {
+            const badgeContainer = document.getElementById("badgeContainer");
+            if (badgeContainer.style.display === "none" || badgeContainer.style.display === "") {
+                badgeContainer.style.display = "block";
+            } else {
+                badgeContainer.style.display = "none";
+            }
+        }
         window.addEventListener("scroll", function () {
             const header = document.querySelector("header");
             header.classList.toggle("scrolled", window.scrollY > 50);
