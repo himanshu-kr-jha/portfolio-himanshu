@@ -696,18 +696,23 @@ section {
         flex-basis: 100%; /* Full width on mobile */
     }
 }
-
 /* Footer Section */
 .footer {
     background-color: #161616; /* Footer background color */
     color: #ffffff; /* Text color */
-    padding: 40px 20px; /* Padding around the footer */
-    text-align: left; /* Center text */
+    padding: 10px 10px; /* Padding around the footer */
+    text-align: center; /* Center text */
+}
+
+.footer-content {
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto; /* Centering the content */
 }
 
 .footer h2 {
     font-size: 2.5rem; /* Title size */
-    margin-bottom: 20px; /* Spacing below the title */
+    margin-bottom: 15px; /* Spacing below the title */
+    font-weight: 600; /* Stronger font weight for the title */
 }
 
 .footer p {
@@ -715,19 +720,85 @@ section {
     margin-bottom: 20px; /* Spacing below each paragraph */
 }
 
-.contact-info {
-    font-size: 1.6rem; /* Font size for contact info */
+.footer a {
+    color: #b74b4b; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold links */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.footer-note {
+    font-size: 1.2rem; /* Copyright text size */
+    margin-top: 20px;
+    color: #888; /* Lighter color for copyright */
+}
+
+.contact-info p {
+    margin: 10px 0; /* Add spacing between contact details */
+    font-size: 1.5rem; /* Size for contact text */
+}
+
+.contact-info i {
+    margin-right: 10px; /* Space between icon and text */
+    color: #b74b4b; /* Icon color */
 }
 
 .contact-info a {
-    color: #b74b4b; /* Link color */
-    transition: 0.3s ease; /* Transition for hover effects */
+    color: inherit; /* Ensure the link inherits the text color */
 }
 
-.contact-info a:hover {
-    color: #fff; /* Change link color on hover */
-    text-decoration: underline; /* Underline links on hover */
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer h2 {
+        font-size: 2rem; /* Smaller title size on mobile */
+    }
+
+    .footer p {
+        font-size: 1.4rem; /* Smaller description text */
+    }
+
+    .contact-info p {
+        font-size: 1.3rem; /* Smaller contact details */
+    }
+
+    .footer-note {
+        font-size: 1rem; /* Smaller copyright text */
+    }
+
+    .contact-container {
+        padding: 10px;
+    }
+
+    .contact-info {
+        text-align: center; /* Center the contact info on mobile */
+    }
 }
+
+@media (max-width: 480px) {
+    .footer h2 {
+        font-size: 1.8rem; /* Even smaller title size */
+    }
+
+    .footer p {
+        font-size: 1.2rem; /* Even smaller description text */
+    }
+
+    .contact-info p {
+        font-size: 1.1rem; /* Smaller contact details */
+    }
+
+    .footer-note {
+        font-size: 0.9rem; /* Smaller copyright text */
+    }
+
+    .contact-info {
+        padding: 10px;
+    }
+}
+
 
  /* Basic styling */
  .linkedin-icon {
