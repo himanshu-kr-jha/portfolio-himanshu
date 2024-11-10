@@ -776,15 +776,6 @@ section {
         text-align: center; /* Center the contact info on mobile */
     }
 }
-.linkedin-icon {
-    font-size: 24px;
-    /* color: #0077b5; */
-    cursor: pointer;
-}
-.badge-container {
-    display: none; /* Initially hidden */
-    margin-top: 20px;
-}
 
 @media (max-width: 480px) {
     .footer h2 {
